@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				sap: {
+					header: 'hsl(var(--sap-header))',
+					'header-foreground': 'hsl(var(--sap-header-foreground))',
+					sidebar: 'hsl(var(--sap-sidebar))',
+					'sidebar-active': 'hsl(var(--sap-sidebar-active))',
+					'table-header': 'hsl(var(--sap-table-header))',
+					'table-row-even': 'hsl(var(--sap-table-row-even))',
+					'table-row-odd': 'hsl(var(--sap-table-row-odd))',
+					success: 'hsl(var(--sap-success))',
+					warning: 'hsl(var(--sap-warning))'
 				}
+			},
+			boxShadow: {
+				'header': 'var(--shadow-header)',
+				'card': 'var(--shadow-card)',
+				'button': 'var(--shadow-button)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
